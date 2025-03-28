@@ -1,4 +1,3 @@
-// Factory class to create Notification instances
 public class NotificationFactory {
     public static INotification createNotification(NotificationChannelType channelType) {
         switch (channelType) {

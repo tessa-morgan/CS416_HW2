@@ -1,4 +1,3 @@
-// SMSNotification concrete class
 public class SMSNotification implements INotification {
     @Override
     public void send(String message) {
